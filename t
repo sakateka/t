@@ -4,7 +4,7 @@
 
 if [[ "x$1" == "x-n" ]]; then
     text="$(xsel)"
-    notify-send "$text" "$(translate -f en -t ru "$text")"
+    notify-send "$text" "$(trans -brief :ru "$text")"
 else
-    translate -f en -t ru "$1"
+    trans :ru "$1"
 fi

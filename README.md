@@ -12,3 +12,6 @@ or bind hotkey as show below for i3
 bindsym $mod+x exec "/usr/local/bin/t -n"
 ```
 and translate text placed in X clipboard
+
+# under the hood
+https://github.com/soimort/translate-shell
