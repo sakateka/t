@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Depends: pip install translate
+# Depends: https://github.com/soimort/translate-shell
 
 if [[ "x$1" == "x-n" ]]; then
     text="$(xsel|tr -d ':.^$)(,/')"
